@@ -26,6 +26,7 @@ function Register() {
         const[topic,setTopic] = useState('')
         const [error,setError] = useState('')
         const [success,setSuccess] = useState(false)
+        const [confirmReg,setReg] = useState(false)
 
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -72,6 +73,7 @@ setSuccess(true)
                ).then((response)=>{
                     console.log(response)
                     setSuccess(false)
+                    setReg(true)
                 }).catch((err)=>{
                     if(err.response.data.email){
                         toast('Email already exist',{autoClose:1000,type:'error',position:'top-right'})
@@ -96,7 +98,7 @@ setSuccess(true)
                    
                     setCategoryList(response.data)
                 })
-        })
+        },[])
   return (
    <>
    <ToastContainer/>
@@ -200,7 +202,7 @@ setSuccess(true)
     </div>
   </div>
   
-
+{confirmReg ? <Success/> : null}
    </>
   )
 }
