@@ -26,7 +26,16 @@ body {
   color: white;
   background: #150e28;
   overflow-x:hidden;
-   font-family:Montserrat,Permanent Maker;
+   
   margin:0;
   padding:0;
+}
+html{
+  overflow-x:hidden;
+}
+
+@media(max-width:500px){
+  html,body{
+    overflow-x:hidden;
+  }
 }
