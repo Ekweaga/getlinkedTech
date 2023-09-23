@@ -108,7 +108,7 @@ setSuccess(true)
                         console.log(err)
 
                 })
-        },[])
+        },[])})
   return (
    <>
    <ToastContainer/>
@@ -215,6 +215,7 @@ setSuccess(true)
 {confirmReg ? <Success/> : null}
    </>
   )
+
 }
 
-export default Register
+export default Register;
