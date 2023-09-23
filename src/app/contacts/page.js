@@ -151,7 +151,7 @@ Lagos State</p>
                     <div class="flex flex-col gap-2">
                         <textarea  class="border-[2px] border-white bg-transparent p-2 md:w-[300px] w-[300px] placeholder:text-sm placeholder:text-white placeholder:pl-2 h-[100px]" placeholder="Message" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
                     </div>
-                     <div><button class="bg-gradient-to-r from-[#f927c1] to-[#9d39ff] p-2 rounded-sm w-[200px] flex items-center justify-center" onClick={contactCall}>{success ?<ImSpinner8 className="text-white animate w-[30px] spin"/>:<p className="text-[17px]">Submit</p>}</button></div>
+                     <div><button class="bg-gradient-to-r from-[#f927c1] to-[#9d39ff] p-2 rounded-sm w-[200px] flex items-center justify-center" onClick={contactCall}>{success ?<ImSpinner8 className="text-white animate-spin w-[30px] "/>:<p className="text-[17px]">Submit</p>}</button></div>
             </div>
 
            
