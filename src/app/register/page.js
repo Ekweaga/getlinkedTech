@@ -104,7 +104,7 @@ setSuccess(true)
         useEffect(()=>{
                 axios.get(baseUrl + '/hackathon' + '/categories-list').then((response)=>{
                    
-                    setCategoryList(response.data).catch((err)=>{
+                    setCategoryList(response?.data).catch((err)=>{
                         console.log(err)
 
                 })
@@ -176,9 +176,9 @@ setSuccess(true)
                         <label class="text-sm">Category</label>
                         <select class="border-[2px] border-white bg-transparent p-2 md:w-[220px] text-white w-[160px] text-sm" onChange={(e)=>setCategory(e.target.value)}>
                             <option value="" className="text-white">Select your category</option>
-                            { categoryList.map((item,i)=>{
+                            { categoryList?.map((item,i)=>{
                                 return (
-                                    <option value={item.id} className="text-[#8d1d73] font-bold">{item.name}</option>
+                                    <option value={item.id} className="text-[#8d1d73] font-bold">{item?.name}</option>
                                 )
                             })}
 
@@ -202,7 +202,7 @@ setSuccess(true)
                     <p class="text-[#8d1d73] md:text-sm text-[10px] ">Please review your registration details before submitting</p>
                     <div class="flex gap-2 mt-[5px]"><input type="checkbox" class="bg-transparent"/><p class="md:text-sm text-[10px]">I agreed with the event terms and conditions  and privacy policy</p></div>
                 </div>
-                <div class="flex items-center md:items-start justify-center mt-[15px]"><button class="bg-gradient-to-r from-[#f927c1] to-[#9d39ff] p-2 rounded-sm md:w-[470px] w-[200px] flex items-center justify-center" onClick={registerCall}>{success ?<ImSpinner8 className="text-white animate w-[30px] spin"/>:<p className="text-[17px]">Register</p>}</button></div>
+                <div class="flex items-center md:items-start justify-center mt-[15px]"><button class="bg-gradient-to-r from-[#f927c1] to-[#9d39ff] p-2 rounded-sm md:w-[470px] w-[200px] flex items-center justify-center" onClick={registerCall}>{success ?<ImSpinner8 className="text-white animate-spin w-[30px] "/>:<p className="text-[17px]">Register</p>}</button></div>
                 <div>{error ? <p>{error}</p>:null}</div>
             </div>
             </div>
