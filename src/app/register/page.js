@@ -12,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import { ToastContainer } from 'react-toastify'
 import axios from 'axios'
 import {ImSpinner8} from 'react-icons/im'
+import Link from "next/link"
 
 
 function Register() {
