@@ -64,6 +64,10 @@ setSuccess(true)
                ).then((response)=>{
                     console.log(response)
                     setSuccess(false)
+                    setName('')
+                    setPhone('')
+                    setMail('')
+                    setMessage('')
                 }).catch((err)=>{
                     if(err.response.data.email){
                         toast('Email already exist',{autoClose:1000,type:'error',position:'top-right'})
