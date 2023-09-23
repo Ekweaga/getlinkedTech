@@ -26,6 +26,7 @@ body {
   color: white;
   background: #150e28;
   overflow-x:hidden;
+  position:relative;
    
   margin:0;
   padding:0;

@@ -35,7 +35,7 @@ export default function Home() {
         <Rules/>
         <Criteria/>
         <FAQs/>
-        <TimeLines/>
+        <TimeLines />
         <Prizes/>
         <Partners/>
         <Terms/>

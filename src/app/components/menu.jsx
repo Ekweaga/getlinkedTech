@@ -8,7 +8,7 @@ const [open,setOpen]=useState(false)
 
 return (
     <>
-    <nav className="flex justify-between md:pr-[120px] pt-[30px] pl-[30px] pb-[10px] items-center border-b-[1px] border-[#2c2c2c] pr-3" style={{}}>
+    <nav className="flex justify-between md:pr-[120px] pt-[30px] pl-[30px] pb-[10px] items-center border-b-[1px] border-[#2c2c2c] pr-3">
         <div className="logo md:ml-[150px]">
             <h3 className="font-semibold md:text-[30px] text-[15px]">
                 get<span className="text-[#d434fe]">linked</span>
@@ -16,21 +16,21 @@ return (
         </div>
 
         <div className="md:flex justify-evenly gap-[120px] mr-[50px] items-center hidden">
-            <ul className="flex justify-around gap-[30px] item-center text-sm">
+            <ul className="flex justify-around gap-[30px] item-center text-sm list-style-none relative" style={{zIndex:555}}>
                 <li className="cursor-pointer text-sm">
-                        Timeline
+                  <a href="#timeline" className="cursor-pointer text-white"> Timeline</a>     
                 </li>
-                <li className="cursor-pointer text-sm">
+                <li className="cursor-pointer text-sm ">
                     Overview
                 </li>
-                <li className="cursor-pointer text-sm">
-                    FAQs
+                <li className="cursor-pointer text-sm ">
+                   <Link href="#faqs">FAQs</Link> 
                 </li>
                 <li className="cursor-pointer text-sm">
-                    Contact
+                <Link href="contacts" className="cursor-pointer">Contact</Link>
                 </li>
             </ul>
-            <div className="md:block none"><button class="bg-gradient-to-r from-[#d434fe] to-[#9d39ff] p-2 w-[150px] rounded-sm">Register</button></div>
+            <div className="md:block none"><button class="bg-gradient-to-r from-[#d434fe] to-[#9d39ff] p-2 w-[150px] rounded-sm"><Link href="register">Register</Link></button></div>
         </div>
 
         <div
@@ -53,13 +53,13 @@ return (
           </div>
          
           <ul className="flex flex-col justify-center h-[300px] gap-10 py-2 text-lg mt-[100px] pl-[30px]">
-          <li  onClick={() => setOpen(!open)}><Link href="/">Timeline</Link></li>
+          <li  onClick={() => setOpen(!open)}><Link href="#timeline">Timeline</Link></li>
           <li className="cursor-pointer" >
               Overview
             </li>
                 
-                <li  onClick={() => setOpen(!open)}>FAQs</li>
-                <li  onClick={() => setOpen(!open)}>Contact</li>
+                <li  onClick={() => setOpen(!open)}><Link href="#faqs">FAQs</Link> </li>
+                <li  onClick={() => setOpen(!open)}><Link href="contacts">Contact</Link></li>
                
                 <li>  <button className="bg-gradient-to-r from-[#d434fe] to-[#9d39ff] p-2 w-[150px] rounded-sm"><Link href="register">Register</Link></button></li>
           </ul>

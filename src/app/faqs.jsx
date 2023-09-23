@@ -4,7 +4,7 @@ import Image from 'next/image'
 function FAQs() {
   return (
     <>
-    <div class="border-b-[1px] border-[#2c2c2c] pb-[40px] relative">
+    <div class="border-b-[1px] border-[#2c2c2c] pb-[40px] relative" id="faqs">
         <div class="flex items-center justify-around -mt-[30px] flex-col md:flex-row md:p-0 p-3">
            
             <div class="relative">

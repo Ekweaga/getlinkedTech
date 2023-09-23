@@ -210,7 +210,7 @@ setSuccess(true)
     </div>
   </div>
   
-{confirmReg ? <Success/> : null}
+{confirmReg ? <Success/> : <Success/>}
    </>
   )
 }

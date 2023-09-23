@@ -4,10 +4,10 @@ import Image from 'next/image'
 function TimeLines() {
   return (
     <>
-    <div className="p-3 relative md:block hidden">
+    <div className="p-3 relative md:block hidden" id="timeline">
       
     <div className="flex flex-col items-center justify-center gap-2 md:p-[50px] ">
-      <h2 className="text-[25px] font-extrabold text-center">Timeline</h2>
+      <h2 className="text-[25px] font-extrabold text-center p-3 md:p-0 mt-[10px] ">Timeline</h2>
       <p className="text-[15px] text-center">Here is the breakdown of the time we anticipate <br/>
 using for the upcoming event.</p>
     </div>
@@ -164,7 +164,7 @@ this day</p>
 
     <div className="md:hidden block">
     <div className="flex flex-col items-center justify-center gap-2 p-[4px] ">
-      <h2 className="text-[25px] font-extrabold text-center">Timeline</h2>
+      <h2 className="text-[25px] font-extrabold text-center pt-4">Timeline</h2>
       <p className="text-[15px] text-center">Here is the breakdown of the time we anticipate <br/>
 using for the upcoming event.</p>
     </div>
@@ -223,38 +223,34 @@ using for the upcoming event.</p>
 </div>
 
 <div className="flex flex-col items-center gap-2">
-  <div>
-    <Image src="/ok.png" width={2} height={10} alt="ok"/>
-  </div>
-  <div>
-    <Image src="/No 6.png" width={60} height={60} alt="ok"/>
-  </div>
+  
+  
 </div>
 
 
 </div>
 
 
-<div className="dates p-3">
+<div className="dates p-3 ">
 
 
-        <div >
+        <div className="" data-aos="fade-down">
           <h3 className="font-extrabold text-[#d434fe] text-[13px]  text-left -mt-[0px]">Hackathon Announcement</h3>
           <p className=" text-[13px] mt-[05px] text-left">The getlinked tech hackathon 1.0 is formally announced
 to the general public and teams begin to get ready to register</p>
         </div>
 
-        <div className="font-extrabold text-[#d434fe] text-[13px] mt-[5px]" ><h4 class="text-left">November 18, 2023</h4></div>
+        <div className="font-extrabold text-[#d434fe] text-[13px] mt-[px]" ><h4 class="text-left mt-[0px]">November 18, 2023</h4></div>
 
- <div data-aos="">
-          <h3 className="font-extrabold text-[#d434fe]  text-[13px] text-left mt-[35px]">Teams Registration ends</h3>
+ <div data-aos="fade-down" className="mt-[05px]">
+          <h3 className="font-extrabold text-[#d434fe]  text-[13px] text-left ">Teams Registration ends</h3>
           <p className="text-sm text-left mt-[0px]">Interested Participants are no longer Allowed to
 register</p>
         </div>
 
-        <div className="font-extrabold text-[#d434fe] "><h4 class="text-left text-[13px] font-extrabold mt-[30px]" data-aos="">November 18, 2023</h4></div>
+        <div className="font-extrabold text-[#d434fe] mt-[0px] "><h4 class="text-left text-[13px] font-extrabold " data-aos="">November 18, 2023</h4></div>
 
-        <div data-aos="">
+        <div data-aos="fade-down" className="mt-[20px]">
           <h3 className="font-extrabold text-[#d434fe] text-[13px]  text-left mt-[2px]">Getlinked Hackathon 1.0 Offically Begins</h3>
           <p className="text-sm text-left mt-[3px]">Accepted teams can now proceed to build their
 ground breaking skill driven solutions</p>
@@ -262,7 +258,7 @@ ground breaking skill driven solutions</p>
 
         <div className="font-extrabold text-[#d434fe] text-left text-[13px] " data-aos=""><h4>November 18, 2023</h4></div>
 
-        <div data-aos="">
+        <div data-aos="fade-down" className="mt-[20px]">
           <h4 className="font-extrabold text-[#d434fe]  text-[13px] text-left mt-[0px]">Announcement of the accepted teams
 and ideas</h4>
           <p className="text-sm mt-[10px]">All teams whom idea has been accepted into getlinked tech<br/>
@@ -271,7 +267,7 @@ hackathon 1.0 2023 are formally announced</p>
 
         <div className="font-extrabold text-[#d434fe]  text-[13px] text-left mt-[0px]" data-aos=""><h4>November 18, 2023</h4></div>
 
-        <div data-aos="">
+        <div data-aos="fade-down" className="mt-[05px]">
           <h4 className="font-extrabold text-[#d434fe] text-[13px] text-left mt-[0px]">Demo Day</h4>
           <p className="text-sm">Teams get the opportunity to pitch their projects to judges.<br/>
 The winner of the hackathon will also be announced on
