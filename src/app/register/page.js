@@ -72,7 +72,7 @@ setSuccess(true)
                     privacy_policy_accepted:true
                 },
                ).then((response)=>{
-                    console.log(response)
+                    
                     setSuccess(false)
                     setReg(true)
                     setEmail('')
@@ -87,7 +87,7 @@ setSuccess(true)
                         toast('Email already exist',{autoClose:1000,type:'error',position:'top-right'})
                     }
                     setSuccess(false)
-                    console.log(err)
+                    
                 })
 
         }
@@ -106,7 +106,7 @@ setSuccess(true)
                    
                     setCategoryList(response.data).catch((err)=>{
                         console.log(err)
-                    })
+
                 })
         },[])
   return (
