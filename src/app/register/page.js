@@ -104,7 +104,9 @@ setSuccess(true)
         useEffect(()=>{
                 axios.get(baseUrl + '/hackathon' + '/categories-list').then((response)=>{
                    
-                    setCategoryList(response.data)
+                    setCategoryList(response.data).catch((err)=>{
+                        console.log(err)
+                    })
                 })
         },[])
   return (
@@ -176,7 +178,7 @@ setSuccess(true)
                             <option value="" className="text-white">Select your category</option>
                             { categoryList.map((item,i)=>{
                                 return (
-                                    <option value={item.id} className="text-[#8d1d73] font-bold">{item?.name}</option>
+                                    <option value={item.id} className="text-[#8d1d73] font-bold">{item.name}</option>
                                 )
                             })}
 
