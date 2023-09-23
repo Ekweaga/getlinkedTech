@@ -20,6 +20,9 @@ function Contact(){
     const[message,setMessage] = useState('')
     const [error,setError] = useState('')
     const [success,setSuccess] = useState(false)
+      const baseUrl = "https://backend.getlinked.ai"
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     const contactCall = (e)=>{
                 e.preventDefault();

@@ -16,11 +16,11 @@ function Intro() {
                 <h3 className="md:text-[30px] font-extrabold text-center md:text-left">Introduction to getlinked<br/>
 <span className="text-[#d434fe]">tech Hackathon 1.0</span></h3>
 <p className="md:w-[500px] text-sm md:leading-8 mt-[10px] text-center md:text-left md:p-0 p-3">Our tech hackathon is a melting pot of visionaries, and its purpose is as
- clear as day: to shape the future. Whether you're a coding genius, a 
-design maverick, or a concept wizard, you'll have the chance to transform 
-your ideas into reality. Solving real-world problems, pushing the boundaries
+ clear as day to shape the future. Whether you are a coding genius a 
+design maverick or a concept wizard you ll have the chance to transform 
+your ideas into reality. Solving real-world problems pushing the boundaries
 of technology, and creating solutions that can change the world,
-that's what we're all about!</p>
+that's what we are all about</p>
 
             </div>
         </div>

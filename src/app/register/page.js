@@ -49,7 +49,7 @@ setSuccess(true)
                     }
 
                     else{
-                        toast('Phone numver is not valid',{autoClose:1000,type:'error',position:'top-right'})
+                        toast('Phone number is not valid',{autoClose:1000,type:'error',position:'top-right'})
                         setSuccess(false)
                     return;
                 }
@@ -136,7 +136,7 @@ setSuccess(true)
             <Image src="/star (1).png" width={20} height={400} alt="seat" class="absolute -top-[100px] right-[100px] -mt-[60px] md:block hidden" style={{zIndex:22}}/>
                 <div class="input1 flex gap-[30px] flex-col md:flex-row ">
                     <div class="flex flex-col gap-2">
-                        <label class="text-sm">Team's Name</label>
+                        <label class="text-sm">Teams Name</label>
                         <input type="text" placeholder="Enter the name of your group" class="border-[2px] border-white bg-transparent p-2 md:w-[220px] placeholder:text-[12px] w-[300px]" value={teamName} onChange={(e)=>setName(e.target.value)}/>
                     </div>
 

@@ -15,11 +15,11 @@ function Rules() {
                 <h3 class="md:text-[30px] text-[20px] font-extrabold relative md:text-left text-center" style={{zIndex:222}}>Rules and<br/>
 <span className="text-[#d434fe]">Guidelines</span></h3>
 <p className="md:w-[500px] mt-[10px] text-sm leading-8 relative text-center md:text-left md:p-0 p-3" style={{zIndex:222}}>Our tech hackathon is a melting pot of visionaries, and its purpose is as
-clear as day: to shape the future. Whether you're a coding genius, a 
-design maverick, or a concept wizard, you'll have the chance to transform 
+clear as day: to shape the future. Whether you are a coding genius, a 
+design maverick, or a concept wizard, you will have the chance to transform 
 your ideas into reality. Solving real-world problems, pushing the boundaries
 of technology, and creating solutions that can change the world,
-that's what we're all about!</p>
+thats what we are all about!</p>
 
             </div>
 
