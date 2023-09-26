@@ -80,7 +80,7 @@ setSuccess(true)
                     setPhone('')
                     setSize('')
                     setCategory('')
-                    setCategoryList('')
+                   
                     setTopic('')
                 }).catch((err)=>{
                     if(err.response.data.email){
