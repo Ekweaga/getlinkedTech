@@ -12,7 +12,7 @@ function Footer() {
     <Image src="/star3.png" width={20} height={450} alt="f" className="ml-[0px] absolute bottom-[120px] left-[730px]"/>
         <div className="flex md:items-center justify-around relative md:gap-[150px] flex-col md:flex-row md:p-0 p-3">
            <Image src="/star (1).png" width={20} height={450} alt="f" className="ml-[0px] absolute top-[60px] right-[260px]"/>
-          <div>
+          <div data-aos="fade-down">
           <h3 className="font-semibold md:text-[30px] mb-[20px] text-[20px] md:ml-0 ml-[20px] md:pt-0 pt-3">
                 get<span className="text-[#d434fe]">linked</span>
             </h3>
@@ -26,7 +26,7 @@ young and talented individuals in the field of technology</p>
 
           </div>
 
-          <div className="mt-[40px]">
+          <div className="mt-[40px]" data-aos="fade-up">
             <h3 className="text-[#d434fe] font-bold">Useful links</h3>
             <ul className="flex flex-col gap-2 text-sm md:mt-0 mt-2">
               <li className="text-sm">Overview</li>
@@ -37,7 +37,7 @@ young and talented individuals in the field of technology</p>
             </ul>
           </div>
 
-          <div className="mt-[25px] md:mt-0">
+          <div className="mt-[25px] md:mt-0" data-aos="slide-down">
           <h3 className="text-[#d434fe] font-bold">Contact us</h3>
             <ul className="flex flex-col gap-2 text-sm mt-[20px]">
             <li className="flex items-center gap-3  font-bold"><div><Image src="/phone.png" width={10} height={50} alt="media"/></div>+2349084569 </li>
