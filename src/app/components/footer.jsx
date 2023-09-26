@@ -4,6 +4,7 @@ import Image from 'next/image'
 function Footer() {
   return (
     <>
+    <footer>
     
     <div className=" pb-[20px] relative bg-[#110b20] md:h-[400px] mt-[50px] flex items-center flex-col justify-center md:p-0 p-4">
     
@@ -37,7 +38,7 @@ young and talented individuals in the field of technology</p>
             </ul>
           </div>
 
-          <div className="mt-[25px] md:mt-0" data-aos="slide-down">
+          <div className="mt-[25px] md:mt-0" data-aos="fade-in">
           <h3 className="text-[#d434fe] font-bold">Contact us</h3>
             <ul className="flex flex-col gap-2 text-sm mt-[20px]">
             <li className="flex items-center gap-3  font-bold"><div><Image src="/phone.png" width={10} height={50} alt="media"/></div>+2349084569 </li>
@@ -52,7 +53,7 @@ Lagos State </li>
           
         </div>
         <div className="mt-[60px] p-3 text-sm"><p>All rights reserved. © getlinked Ltd.</p></div>
-    </div>
+    </div></footer>
     </>
   )
 }

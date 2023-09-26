@@ -30,13 +30,14 @@ for participants.
 
             <div className="relative pt-4" >
               <div className="relative pt-[60px] md:block hidden">
+                <div data-aos="zoom-in">
                 <h3 className="text-[30px] font-bold">
                 Prizes and <br/>
              <span className="text-[#d434fe] -mt-[40px]">Rewards</span>
                 </h3>
                 <p className="relative" style={{zIndex:222}}>Highlight of the prizes or rewards for winners and<br/>
 for participants.
-</p>
+</p></div>
   <Image src="/star2.png" width={20} height={450} alt="f" class="ml-[0px] absolute top-[90px] bottom-0 left-[250px] " style={{zIndex:2}}/>
               </div><br/><br/>
               <div className="relative" style={{zIndex:'10px'}} data-aos="zoom-in"> 
