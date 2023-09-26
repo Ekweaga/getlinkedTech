@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image"
+import Link from "next/link"
 
 function Hero() {
   return (
@@ -30,7 +31,7 @@ function Hero() {
 a chance to win a Big prize</p>
                 </div>
 
-                <div className="mt-[30px]"><button className="bg-gradient-to-r from-[#f927c1] to-[#9d39ff] p-2 rounded-sm w-[200px]">Register</button></div>
+                <div className="mt-[30px]"><button className="bg-gradient-to-r from-[#f927c1] to-[#9d39ff] p-2 rounded-sm w-[200px] hover:bg-[#f927c1] hover:scale-75"><Link href="register">Register</Link></button></div>
 
                 <div className="mt-[70px] flex gap-3">
                     <p><span className=" text-[40px]">00</span><sub className="text-sm">H</sub></p>

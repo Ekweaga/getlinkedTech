@@ -52,7 +52,7 @@ ground breaking skill driven solutions</p>
          <div className="ml-[20px]">
           <div className="flex flex-col gap-3">
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2" data-aos="fade-in">
               <div>
                 <Image src="/ok.png" width={3} height={10} alt="ok"/>
               </div>
@@ -61,7 +61,7 @@ ground breaking skill driven solutions</p>
               </div>
             </div>
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2" data-aos="fade-in">
               <div>
                 <Image src="/ok.png" width={2} height={10} alt="ok"/>
               </div>
@@ -71,7 +71,7 @@ ground breaking skill driven solutions</p>
             </div>
 
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2" data-aos="fade-in">
               <div>
                 <Image src="/ok.png" width={2} height={10} alt="ok"/>
               </div>
@@ -81,7 +81,7 @@ ground breaking skill driven solutions</p>
             </div>
 
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2" data-aos="fade-in">
               <div>
                 <Image src="/ok.png" width={2} height={10} alt="ok"/>
               </div>
@@ -90,7 +90,7 @@ ground breaking skill driven solutions</p>
               </div>
             </div>
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2" data-aos="fade-in">
               <div>
                 <Image src="/ok.png" width={2} height={10} alt="ok"/>
               </div>
@@ -99,7 +99,7 @@ ground breaking skill driven solutions</p>
               </div>
             </div>
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2" data-aos="fade-in">
               <div>
                 <Image src="/ok.png" width={2} height={10} alt="ok"/>
               </div>
@@ -175,7 +175,7 @@ using for the upcoming event.</p>
 
     <div className="flex flex-col gap-3 pl-3">
 
-<div className="flex flex-col items-center gap-2">
+<div className="flex flex-col items-center gap-2" data-aos="fade-in">
   <div>
     <Image src="/ok.png" width={3} height={10} alt="ok"/>
   </div>
@@ -184,7 +184,7 @@ using for the upcoming event.</p>
   </div>
 </div>
 
-<div className="flex flex-col items-center gap-2">
+<div className="flex flex-col items-center gap-2" data-aos="fade-in">
   <div>
     <Image src="/ok.png" width={2} height={10} alt="ok"/>
   </div>
@@ -194,7 +194,7 @@ using for the upcoming event.</p>
 </div>
 
 
-<div className="flex flex-col items-center gap-2">
+<div className="flex flex-col items-center gap-2" data-aos="fade-in">
   <div>
     <Image src="/ok.png" width={2} height={10} alt="ok"/>
   </div>
@@ -204,7 +204,7 @@ using for the upcoming event.</p>
 </div>
 
 
-<div className="flex flex-col items-center gap-2">
+<div className="flex flex-col items-center gap-2" data-aos="fade-in">
   <div>
     <Image src="/ok.png" width={2} height={10} alt="ok"/>
   </div>
@@ -213,7 +213,7 @@ using for the upcoming event.</p>
   </div>
 </div>
 
-<div className="flex flex-col items-center gap-2">
+<div className="flex flex-col items-center gap-2" data-aos="fade-in">
   <div>
     <Image src="/ok.png" width={2} height={10} alt="ok"/>
   </div>

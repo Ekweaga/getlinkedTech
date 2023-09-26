@@ -4,7 +4,9 @@ import Image from 'next/image'
 function Footer() {
   return (
     <>
+    
     <div className=" pb-[20px] relative bg-[#110b20] md:h-[400px] mt-[50px] flex items-center flex-col justify-center md:p-0 p-4">
+    
     <Image src="/star.png" width={20} height={450} alt="f" className="ml-[0px] absolute md:top-[100px] left-[120px] top-[200px]"/>
     <Image src="/star.png" width={20} height={450} alt="f" className="ml-[0px] absolute bottom-[100px] right-[120px]"/>
     <Image src="/star3.png" width={20} height={450} alt="f" className="ml-[0px] absolute bottom-[120px] left-[730px]"/>

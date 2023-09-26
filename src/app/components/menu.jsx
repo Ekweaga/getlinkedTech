@@ -10,8 +10,8 @@ return (
     <>
     <nav className="flex justify-between md:pr-[120px] pt-[30px] pl-[30px] pb-[10px] items-center border-b-[1px] border-[#2c2c2c] pr-3">
         <div className="logo md:ml-[150px]">
-            <h3 className="font-semibold md:text-[30px] text-[15px]">
-                get<span className="text-[#d434fe]">linked</span>
+            <h3 className="font-semibold md:text-[30px] text-[15px] cursor-pointer">
+              <Link href="/">get<span className="text-[#d434fe]">linked</span></Link>  
             </h3>
         </div>
 
@@ -30,7 +30,7 @@ return (
                 <Link href="contacts" className="cursor-pointer">Contact</Link>
                 </li>
             </ul>
-            <div className="md:block none"><button class="bg-gradient-to-r from-[#d434fe] to-[#9d39ff] p-2 w-[150px] rounded-sm"><Link href="register">Register</Link></button></div>
+            <div className="md:block none"><button class="bg-gradient-to-r from-[#d434fe] to-[#9d39ff] p-2 w-[150px] rounded-sm hover:bg-[#9d39ff] hover:scale-75"><Link href="register">Register</Link></button></div>
         </div>
 
         <div
@@ -61,7 +61,7 @@ return (
                 <li  onClick={() => setOpen(!open)}><Link href="#faqs">FAQs</Link> </li>
                 <li  onClick={() => setOpen(!open)}><Link href="contacts">Contact</Link></li>
                
-                <li>  <button className="bg-gradient-to-r from-[#d434fe] to-[#9d39ff] p-2 w-[150px] rounded-sm"><Link href="register">Register</Link></button></li>
+                <li>  <button className="bg-gradient-to-r from-[#d434fe] to-[#9d39ff] p-2 w-[150px] rounded-sm hover:bg-[#9d39ff] hover:scale-75"><Link href="register">Register</Link></button></li>
           </ul>
         </div>
 

@@ -15,6 +15,7 @@ import Footer from './components/footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import ScrollTop from './components/scrollTop'
 
 
 
@@ -29,6 +30,7 @@ export default function Home() {
   return (
    
         <>
+     
         <Menu/>
         <Hero/>
         <Intro/>
@@ -40,6 +42,7 @@ export default function Home() {
         <Partners/>
         <Terms/>
         <Footer/>
+        <ScrollTop/>
         </>
        
              
